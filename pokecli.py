@@ -40,6 +40,7 @@ from geopy.exc import GeocoderQuotaExceeded
 
 from pokemongo_bot import PokemonGoBot, TreeConfigBuilder
 from pokemongo_bot.health_record import BotEvent
+from pokemongo_encoder.encrypt import Encrypt
 
 if sys.version_info >= (2, 7, 9):
     ssl._create_default_https_context = ssl._create_unverified_context
@@ -51,6 +52,8 @@ logger = logging.getLogger('cli')
 logger.setLevel(logging.INFO)
 
 def main():
+    enc = Encrypt()
+    exit(0)
 
     logger.info('PokemonGO Bot v1.0')
     sys.stdout = codecs.getwriter('utf8')(sys.stdout)

@@ -190,7 +190,7 @@ _PLAYERBADGE = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='current_value', full_name='POGOProtos.Data.PlayerBadge.current_value', index=4,
       number=5, type=1, cpp_type=5, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -451,14 +451,14 @@ _POKEMONDATA = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='egg_km_walked_target', full_name='POGOProtos.Data.PokemonData.egg_km_walked_target', index=10,
       number=11, type=1, cpp_type=5, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
       name='egg_km_walked_start', full_name='POGOProtos.Data.PokemonData.egg_km_walked_start', index=11,
       number=12, type=1, cpp_type=5, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -472,14 +472,14 @@ _POKEMONDATA = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='height_m', full_name='POGOProtos.Data.PokemonData.height_m', index=13,
       number=15, type=2, cpp_type=6, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
       name='weight_kg', full_name='POGOProtos.Data.PokemonData.weight_kg', index=14,
       number=16, type=2, cpp_type=6, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -507,7 +507,7 @@ _POKEMONDATA = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='cp_multiplier', full_name='POGOProtos.Data.PokemonData.cp_multiplier', index=18,
       number=20, type=2, cpp_type=6, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
@@ -563,7 +563,7 @@ _POKEMONDATA = _descriptor.Descriptor(
     _descriptor.FieldDescriptor(
       name='additional_cp_multiplier', full_name='POGOProtos.Data.PokemonData.additional_cp_multiplier', index=26,
       number=28, type=2, cpp_type=6, label=1,
-      has_default_value=False, default_value=float(0),
+      has_default_value=False, default_value=0,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
